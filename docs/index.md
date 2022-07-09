@@ -25,6 +25,7 @@
 
 <br><br><br>
 
+!!! Note
 Step angle: 1.8°と記載されております。1.8°ステップ角度ということはステッピングモーターを一回転(360°)させるためには
 
 ```
@@ -32,6 +33,15 @@ Step angle: 1.8°と記載されております。1.8°ステップ角度とい�
 ```
 
 200ステップ必要ということになります。
+
+### ステッピングモータードライバDRV8825の仕様
+
+
+
+!!! Warning
+モータードライバDRV8825を仕様する際には事前に可変抵抗を回して電流の値を調整をしてあげる必要があります。
+
+[Setting the Current Limit on Pololu Stepper Motor Driver Carriers](https://www.youtube.com/watch?v=89BHS9hfSUk)
 
 
 ## Inkscape
